@@ -36,7 +36,9 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testAdd2() {
+		double val = calc.add(-3, 0);
 
+		assertEquals(-3, val, 0.001);
 	}
 
 	/**
@@ -46,7 +48,9 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testMinus() {
+		double val = calc.minus(10,2);
 
+		assertEquals(8, val, 0.001);
 	}
 
 	/**
@@ -56,7 +60,9 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testMultiply() {
+		double val = calc.multiply(5,5);
 
+		assertEquals(25, val, 0.001);
 	}
 
 	/**
@@ -66,7 +72,9 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testDivide() {
+		double val = calc.divide(10,2);
 
+		assertEquals(5, val, 0.001);
 	}
 
 
