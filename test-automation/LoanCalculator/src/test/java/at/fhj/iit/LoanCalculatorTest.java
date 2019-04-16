@@ -60,6 +60,8 @@ public class LoanCalculatorTest {
         //EXERCISE PHASE
         double value = loan.totalInterestOwed();
 
+        
+
         //VERIFY PHASE
         assertEquals(10.8663874099, 10.8663874099, 0.001);
     }
