@@ -31,7 +31,8 @@ public class LoanCalculatorTest {
         double value = loan.monthlyPayment();
 
         //VERIFY PHASE
-        assertEquals(84.2388656175, 84.2388656175, 0.001);
+        assertEquals(84.24, value, 0.001);
+
     }
     /**
      * tests LoanCalculator function totalAmountOwed
@@ -46,7 +47,7 @@ public class LoanCalculatorTest {
         double value = loan.totalAmountOwed();
 
         //VERIFY PHASE
-        assertEquals(1010.8663874099, 1010.8663874099, 0.001);
+        assertEquals(1010.88, value, 0.001);
     }
     /**
      * tests LoanCalculator function totalInterestOwed
@@ -60,9 +61,9 @@ public class LoanCalculatorTest {
         //EXERCISE PHASE
         double value = loan.totalInterestOwed();
 
-        
+
 
         //VERIFY PHASE
-        assertEquals(10.8663874099, 10.8663874099, 0.001);
+        assertEquals(10.88, value, 0.001);
     }
 }
