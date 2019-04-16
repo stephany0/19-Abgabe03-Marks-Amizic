@@ -1,9 +1,9 @@
 package at.fhj.iit;
 
-import static org.junit.Assert.*;
-
-import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.*;
+import org.junit.Before;
+import java.awt.*;
 
 public class Point2dTest {
 
@@ -19,6 +19,11 @@ public class Point2dTest {
 	 */
 	@Test
 	public void testSetX(){
+		Point2d pointX = new Point2d();
+		//assertTrue(true);
+		pointX.setX(1.0);
+		assertEquals(pointX.getX(), 1.0, 0.001);
+
 	}
 
 	/**
