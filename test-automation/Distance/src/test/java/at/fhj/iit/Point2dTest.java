@@ -34,6 +34,10 @@ public class Point2dTest {
 	 */
 	@Test
 	public void testSetY(){
+		Point2d pointY = new Point2d();
+		//assertTrue(true);
+		pointY.setY(2.0);
+		assertEquals(2.0, pointY.getY(), 0.001);
 	}
 
 
