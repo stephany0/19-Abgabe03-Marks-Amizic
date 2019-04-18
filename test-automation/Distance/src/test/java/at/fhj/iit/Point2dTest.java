@@ -22,7 +22,7 @@ public class Point2dTest {
 		Point2d pointX = new Point2d();
 		//assertTrue(true);
 		pointX.setX(1.0);
-		assertEquals(pointX.getX(), 1.0, 0.001);
+		assertEquals(1.0, pointX.getX(), 0.001);
 
 	}
 
